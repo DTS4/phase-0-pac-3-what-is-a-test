@@ -36,3 +36,8 @@ describe('', () => {
     })
   })
 })
+describe("Name", () => {
+  it('returns "Susan"', () => {
+    expect(name).toEqual("Susan");
+  });
+});
